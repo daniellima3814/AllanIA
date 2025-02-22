@@ -30,4 +30,19 @@ function reconhecimentoVoz() {
     };
 
     recognition.start();
+}body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
 }
+
+h1 {
+    color: #4CAF50;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
