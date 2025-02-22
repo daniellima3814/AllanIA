@@ -3,16 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AllanIA</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Testando AllanIA</title>
 </head>
 <body>
-    <h1>Bem-vindo ao AllanIA</h1>
-    <p id="outputText">Comandos que você pode usar:</p>
-    <input type="text" id="inputText" placeholder="Digite um comando">
-    <button onclick="processarComando()">Executar</button>
-    <button onclick="reconhecimentoVoz()">Usar voz</button>
-
-    <script src="script.js"></script>
+    <h1>Testando AllanIA</h1>
+    <p>Se você vê essa página, então o GitHub Pages está funcionando!</p>
 </body>
 </html>
