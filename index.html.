@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllanIA.com - Sua IA Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao AllanIA.com</h1>
+        <p>Fale ou digite um comando e veja a magia acontecer!</p>
+        <div class="input-area">
+            <textarea id="inputText" placeholder="Digite seu comando..."></textarea>
+            <button onclick="processarComando()">Enviar Comando</button>
+            <button onclick="reconhecimentoVoz()">Usar Voz</button>
+        </div>
+        <div class="output-area">
+            <p id="outputText"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
