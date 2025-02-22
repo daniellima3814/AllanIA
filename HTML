@@ -10,3 +10,24 @@
     <p>Se você vê essa página, então o GitHub Pages está funcionando!</p>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllanIA - Teste de interatividade</title>
+</head>
+<body>
+    <h1>Testando AllanIA</h1>
+    <input type="text" id="inputText" placeholder="Digite algo">
+    <button onclick="mostrarTexto()">Enviar</button>
+    <p id="outputText"></p>
+
+    <script>
+        function mostrarTexto() {
+            const texto = document.getElementById("inputText").value;
+            document.getElementById("outputText").textContent = "Você digitou: " + texto;
+        }
+    </script>
+</body>
+</html>
